@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production builds
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+*.env
+
+# Uploads and temporary stores
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/src/database/dev_store.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# System and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
